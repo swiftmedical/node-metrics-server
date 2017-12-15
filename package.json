@@ -1,0 +1,20 @@
+{
+  "name": "@swiftmedical/metrics-server",
+  "version": "1.0.0",
+  "description": "Lightweight Prometheus metrics server for primarily non-http processes Edit",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swiftmedical/node-metrics-server.git"
+  },
+  "keywords": [
+    "prometheus",
+    "metrics"
+  ],
+  "author": "Dan Williams <dan@swiftmedical.io>",
+  "license": "MIT",
+  "dependencies": {
+    "@swiftmedical/log": "github:swiftmedical/node-log",
+    "prom-client": "^10.2.2"
+  }
+}
